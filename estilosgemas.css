@@ -1,0 +1,21 @@
+div {
+  width: 25px;
+  height: 50px;
+  background: black;
+  position: fixed;
+  animation-name: example;
+  animation-duration: 20s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 25px;}
+  to {top: 800px; background-color: black;}
+}
+p{
+    font-family: "Lucida Console", Courier, monospace;
+    color: white;
+}
+h3{
+    font-family: "Lucida Console", Courier, monospace;
+}
